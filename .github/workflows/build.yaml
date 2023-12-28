@@ -1,0 +1,12 @@
+on: push
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@HEAD
+    - uses: microsoft/setup-msbuild@HEAD
+    - shell: cmd
+      run: msbuild /p:PlatformToolset=v143 /p:Configuration=Release &REM
+    - uses: actions/upload-artifact@HEAD
+      with:
+        path: "**/*.exe"
