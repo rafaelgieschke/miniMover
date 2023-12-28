@@ -63,6 +63,7 @@ const XYZPrinterInfo XYZV3::m_infoArray[m_infoArrayLen] = { //  File parameters 
 	{"dv2JW0A000", "daVinciJR20W", "3F2JWP", "dv2JW0A000_V2",   false, false,  true,    true, false,  true,  true, false, false,   150, 150, 150,   "da Vinci Jr. 2.0 Mix"},	// FJR20M, only 0.4mm nozzle
 
 	{"dv1MX0A000",   "dv1MX0A000", "3FM1XP", "dv1MX0A000_V2",   false, false,  true,   false, false, false, false, false, false,   150, 150, 150,   "da Vinci miniMaker"},		// FM1X
+	{"dv1MX0B000",   "dv1MX0B000", "3FM1XP", "dv1MX0B000_V2",   false, false,  true,   false, false, false, false, false, false,   150, 150, 150,   "da Vinci miniMaker"},		// FM1X
 	{"dv1MW0A000",   "dv1MW0A000", "3FM1WP", "dv1MW0A000_V2",   false, false,  true,   false, false, false,  true, false, false,   150, 150, 150,   "da Vinci mini w"},			// FM1W
 	{"dv1MW0B000",   "dv1MW0B000", "3FM1JP", "dv1MW0B000_V2",   false, false,  true,   false, false, false,  true, false, false,   150, 150, 150,   "da Vinci mini wA"},
 	{"dv1MW0C000",   "dv1MW0C000", "3FM3WP", "dv1MW0C000_V2",   false, false,  true,   false, false, false,  true, false, false,   150, 150, 150,   "da Vinci mini w+"},
